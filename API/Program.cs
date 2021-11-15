@@ -1,18 +1,39 @@
 
+using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
 
 var builder = WebApplication.CreateBuilder(args);
-var config = builder.Services.BuildServiceProvider().GetRequiredService<IConfiguration>();
 
 // Add services to the container.
-
 
 builder.Services.AddControllers();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+var config = builder.Services.BuildServiceProvider().GetRequiredService<IConfiguration>();
 builder.Services.AddDbContext<StoreContext>(x => x.UseSqlServer(config.GetConnectionString("DefaultConnection")));
+builder.Services.AddScoped<IProductRepository, ProductRepository>();
+
+
+    var loggerFactory = builder.Services.BuildServiceProvider().GetRequiredService<ILoggerFactory>();
+
+    try
+    {
+        var context = builder.Services.BuildServiceProvider().GetRequiredService<StoreContext>();
+        await context.Database.MigrateAsync();
+        await StoreContextSeed.SeedAsync(context, loggerFactory);
+    }
+    catch (Exception ex)
+    {
+        var logger = loggerFactory.CreateLogger<Program>();
+        logger.LogError(ex, "An error occured while migration");
+    }
+
+
+
+
 
 var app = builder.Build();
 
