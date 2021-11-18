@@ -1,4 +1,5 @@
 
+using API.Helpers;
 using Core.Interfaces;
 using Infrastructure.Data;
 using Microsoft.EntityFrameworkCore;
@@ -15,6 +16,8 @@ builder.Services.AddSwaggerGen();
 var config = builder.Services.BuildServiceProvider().GetRequiredService<IConfiguration>();
 builder.Services.AddDbContext<StoreContext>(x => x.UseSqlServer(config.GetConnectionString("DefaultConnection")));
 builder.Services.AddScoped<IProductRepository, ProductRepository>();
+builder.Services.AddScoped(typeof(IGenericRepository<>),typeof(GenericRepository<>));
+builder.Services.AddAutoMapper(typeof(MappingProfiles));
 
 
     var loggerFactory = builder.Services.BuildServiceProvider().GetRequiredService<ILoggerFactory>();
@@ -45,6 +48,8 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
+app.UseRouting();
+app.UseStaticFiles();
 
 app.UseAuthorization();
 
