@@ -33,7 +33,13 @@ var loggerFactory = builder.Services.BuildServiceProvider().GetRequiredService<I
         var logger = loggerFactory.CreateLogger<Program>();
         logger.LogError(ex, "An error occured while migration");
     }
-
+builder.Services.AddCors(opt =>
+{
+    opt.AddPolicy("CorsPolicy", policy =>
+     {
+         policy.AllowAnyHeader().AllowAnyMethod().WithOrigins("https://localhost:4200");
+     });
+});
 
 
 var app = builder.Build();
@@ -44,7 +50,7 @@ app.UseStatusCodePagesWithReExecute("/errors/{0}");
 app.UseHttpsRedirection();
 app.UseRouting();
 app.UseStaticFiles();
-app.UseSwaggerDocumentation();
+app.UseCors("CorsPolicy");
 app.UseAuthorization();
 
 app.MapControllers();

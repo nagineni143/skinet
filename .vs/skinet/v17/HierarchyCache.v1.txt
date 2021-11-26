@@ -1,0 +1,246 @@
+﻿++Solution 'skinet' ‎(3 of 3 projects)
+i:{00000000-0000-0000-0000-000000000000}:skinet.sln
+++Solution Items
+i:{00000000-0000-0000-0000-000000000000}:Solution Items
+++.editorconfig
+i:{899d0bef-091a-4dbb-850c-cf3bc76a3b7e}:C:\Users\NAGINENI HARIKRISHNA\Desktop\demo\skinet\.editorconfig
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\.editorconfig
+++.gitignore
+i:{899d0bef-091a-4dbb-850c-cf3bc76a3b7e}:C:\Users\NAGINENI HARIKRISHNA\Desktop\demo\skinet\.gitignore
+++Core
+i:{00000000-0000-0000-0000-000000000000}:Core
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\bin\debug\net6.0\core.dll
+++Dependencies
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:>358
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:>359
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>521
+++Entities
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\entities\
+++Interfaces
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\interfaces\
+++IGenericRepository.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\interfaces\igenericrepository.cs
+++IProductRepository.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\interfaces\iproductrepository.cs
+++Specifications
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\specifications\
+++BaseSpecification.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\specifications\basespecification.cs
+++ISpecification.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\specifications\ispecification.cs
+++ProductsWithTypesAndBrandsSpecification.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\specifications\productswithtypesandbrandsspecification.cs
+++Analyzers
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:analyzers
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:analyzers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:analyzers
+++Frameworks
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:frameworks
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:frameworks
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:frameworks
+++BaseEntity.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\entities\baseentity.cs
+++Product.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\entities\product.cs
+++ProductBrand.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\entities\productbrand.cs
+++ProductType.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\entities\producttype.cs
+++Microsoft.CodeAnalysis.CSharp.NetAnalyzers
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.csharp.netanalyzers.dll
+++Microsoft.CodeAnalysis.NetAnalyzers
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk\analyzers\microsoft.codeanalysis.netanalyzers.dll
+++System.Text.Json.SourceGeneration
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\packs\microsoft.netcore.app.ref\6.0.0\analyzers\dotnet\cs\system.text.json.sourcegeneration.dll
+++Microsoft.NETCore.App
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\microsoft.netcore.app
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\microsoft.netcore.app
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\microsoft.netcore.app
+++Infrastructure
+i:{00000000-0000-0000-0000-000000000000}:Infrastructure
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\bin\debug\net6.0\infrastructure.dll
+++Data
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\
+++Config
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\config\
+++Migrations
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\migrations\
+++SeedData
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\seeddata\
+++GenericRepository.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\genericrepository.cs
+++ProductRepository.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\productrepository.cs
+++SpecificationEvaluator.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\specificationevaluator.cs
+++StoreContext.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\storecontext.cs
+++StoreContextSeed.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\storecontextseed.cs
+++Packages
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:packages
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:packages
+++Projects
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:projects
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:projects
+++ProductConfiguration.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\config\productconfiguration.cs
+++20211114022005_InitialCreate.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\migrations\20211114022005_initialcreate.cs
+++StoreContextModelSnapshot.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\migrations\storecontextmodelsnapshot.cs
+++brands.json
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\seeddata\brands.json
+++delivery.json
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\seeddata\delivery.json
+++products.json
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\seeddata\products.json
+++types.json
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\seeddata\types.json
+++Microsoft.EntityFrameworkCore.Analyzers
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\.nuget\packages\microsoft.entityframeworkcore.analyzers\6.0.0\analyzers\dotnet\cs\microsoft.entityframeworkcore.analyzers.dll
+++Microsoft.Extensions.Logging.Generators
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\.nuget\packages\microsoft.extensions.logging.abstractions\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\roslyn4.0\cs\microsoft.extensions.logging.generators.dll
+++Microsoft.EntityFrameworkCore.SqlServer (6.0.0)
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:>554
+++Microsoft.EntityFrameworkCore.Tools (6.0.0)
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:>555
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>565
+++20211114022005_InitialCreate.Designer.cs
+i:{77300c81-c2a1-4859-8f93-3a7f8040dd6b}:c:\users\nagineni harikrishna\desktop\demo\skinet\infrastructure\data\migrations\20211114022005_initialcreate.designer.cs
+++API
+i:{00000000-0000-0000-0000-000000000000}:API
+++Connected Services 
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>522
+++Properties
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\properties\
+++wwwroot
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\
+++Controllers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\
+++BaseApiController.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\baseapicontroller.cs
+++BuggyController.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\buggycontroller.cs
+++ErrorController.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\errorcontroller.cs
+++ProductsController.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\productscontroller.cs
+++WeatherForecastController.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\controllers\weatherforecastcontroller.cs
+++DTOs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\dtos\
+++Errors
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\errors\
+++ExceptionMiddleware
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\exceptionmiddleware\
+++Extensions
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\extensions\
+++ApplicationServiceExtensions.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\extensions\applicationserviceextensions.cs
+++SwaggerServiceExtensions.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\extensions\swaggerserviceextensions.cs
+++Helpers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\helpers\
+++MappingProfiles.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\helpers\mappingprofiles.cs
+++ProductUrlResolver.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\helpers\producturlresolver.cs
+++appsettings.json
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\appsettings.json
+++Program.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\program.cs
+++WeatherForecast.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\weatherforecast.cs
+++No service dependencies discovered
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>523
+++launchSettings.json
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\properties\launchsettings.json
+++images
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\
+++ProductReturnDto.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\dtos\productreturndto.cs
+++ApiException.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\errors\apiexception.cs
+++ApiResponse.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\errors\apiresponse.cs
+++ApiValidationErrorResponse.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\errors\apivalidationerrorresponse.cs
+++ExceptionMiddleware.cs
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\exceptionmiddleware\exceptionmiddleware.cs
+++appsettings.Development.json
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\appsettings.development.json
+++Microsoft.AspNetCore.Analyzers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.analyzers.dll
+++Microsoft.AspNetCore.App.Analyzers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.analyzers.dll
+++Microsoft.AspNetCore.App.CodeFixes
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\packs\microsoft.aspnetcore.app.ref\6.0.0\analyzers\dotnet\cs\microsoft.aspnetcore.app.codefixes.dll
+++Microsoft.AspNetCore.Components.Analyzers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.components.analyzers.dll
+++Microsoft.AspNetCore.Mvc.Analyzers
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.web\analyzers\cs\microsoft.aspnetcore.mvc.analyzers.dll
+++Microsoft.AspNetCore.Razor.Internal.SourceGenerator.Transport
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.aspnetcore.razor.internal.sourcegenerator.transport.dll
+++Microsoft.NET.Sdk.Razor.SourceGenerators
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\program files\dotnet\sdk\6.0.100\sdks\microsoft.net.sdk.razor\source-generators\microsoft.net.sdk.razor.sourcegenerators.dll
+++Microsoft.AspNetCore.App
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\microsoft.aspnetcore.app
+++AutoMapper.Extensions.Microsoft.DependencyInjection (8.1.1)
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>558
+++Microsoft.AspNetCore.Authentication.JwtBearer (6.0.0)
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>563
+++Microsoft.AspNetCore.Authentication.OpenIdConnect (6.0.0)
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>561
+++Microsoft.EntityFrameworkCore.Design (6.0.0)
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>559
+++Swashbuckle.AspNetCore (6.2.3)
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:>560
+++products
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\
+++boot-ang1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\boot-ang1.png
+++boot-ang2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\boot-ang2.png
+++boot-core1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\boot-core1.png
+++boot-core2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\boot-core2.png
+++boot-redis1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\boot-redis1.png
+++glove-code1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\glove-code1.png
+++glove-code2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\glove-code2.png
+++glove-react1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\glove-react1.png
+++glove-react2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\glove-react2.png
+++hat-core1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\hat-core1.png
+++hat-react1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\hat-react1.png
+++hat-react2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\hat-react2.png
+++sb-ang1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-ang1.png
+++sb-ang2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-ang2.png
+++sb-core1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-core1.png
+++sb-core2.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-core2.png
+++sb-react1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-react1.png
+++sb-ts1.png
+i:{0511ecef-430a-49b9-b120-e13856a208b1}:c:\users\nagineni harikrishna\desktop\demo\skinet\api\wwwroot\images\products\sb-ts1.png
+++ProductSpecParams.cs
+i:{207f2ec4-9c0b-491d-a44f-d48b175fb1e6}:c:\users\nagineni harikrishna\desktop\demo\skinet\core\specifications\productspecparams.cs

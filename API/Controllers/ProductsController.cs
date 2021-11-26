@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Core.Specifications;
 using API.DTOs;
 using AutoMapper;
+using API.Helpers;
 
 namespace API.Controllers
 {
@@ -30,15 +31,21 @@ namespace API.Controllers
         }
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductReturnDto>>> GetProducts(){
+        public async Task<ActionResult<Pagination<ProductReturnDto>>> GetProducts(
+            [FromQuery]ProductSpecParams productParams){
 
-            var spec = new ProductsWithTypesAndBrandsSpecification();
+            var spec = new ProductsWithTypesAndBrandsSpecification(productParams);
+            var countSpec = new ProductsWithFiltersForCountSpecification(productParams);
+            var totalItems = await _productsRepo.CountAsync(countSpec);
             var products = await _productsRepo.ListAsync(spec);
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductReturnDto>>(products);
 
-            return Ok(_mapper.Map<IReadOnlyList<Product>,IReadOnlyList<ProductReturnDto>>(products));
+            return Ok(new Pagination<ProductReturnDto>(productParams.PageIndex,productParams.PageSize,
+                totalItems,data));
         }
 
         [HttpGet("{id}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<ProductReturnDto>> GetProduct(int id){
             var spec = new ProductsWithTypesAndBrandsSpecification(id);
             var product = await _productsRepo.GetEntityWithSpec(spec);
