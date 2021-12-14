@@ -5,3 +5,4 @@ appsettings.json
 *.v1
 *.v2
 .suo
+*.rdb
